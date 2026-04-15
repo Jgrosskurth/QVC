@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/Jgrosskurth/qvc/
+    url: https://content.da.live/jgrosskurth/qvc/
     type: markup
