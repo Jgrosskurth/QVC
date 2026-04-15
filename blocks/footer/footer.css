@@ -2,7 +2,8 @@
 /* stylelint-disable no-descending-specificity */
 
 footer {
-  font-size: var(--body-font-size-xs);
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--text-color);
   background-color: var(--light-color);
 }
@@ -30,10 +31,10 @@ footer .footer .section p {
 
 /* ===== Promo Banners (first child, plain div) ===== */
 footer .footer .section > div:first-child {
-  background-color: var(--light-color);
+  background-color: #fff;
   max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 32px 24px 0;
+  padding: 25px;
   box-sizing: border-box;
 }
 
@@ -84,10 +85,15 @@ footer .footer .section > .default-content-wrapper hr {
 }
 
 /* ===== 3-Column section (Stay in Touch, Manage Account, QCard) ===== */
+footer .footer .section > .columns-wrapper:has(.columns-3-cols) {
+  background-color: #f8f9f9;
+  padding: 25px 0;
+}
+
 footer .footer .columns-3-cols {
   max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 25px;
   box-sizing: border-box;
 }
 
@@ -139,13 +145,13 @@ footer .footer .columns-3-cols a:hover {
 footer .footer .columns-5-cols {
   max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 25px;
   box-sizing: border-box;
 }
 
 footer .footer .section > .columns-wrapper:has(.columns-5-cols) {
   background-color: #ebeeef;
-  padding: 24px 0;
+  padding: 25px 0;
 }
 
 footer .footer .columns-5-cols > div {
@@ -231,7 +237,7 @@ footer .footer .section > .default-content-wrapper:nth-child(6) {
 /* ===== Bottom bar (brands, legal, copyright) ===== */
 footer .footer .section > div:last-child {
   background-color: #dce1e3;
-  padding: 24px;
+  padding: 25px;
 }
 
 footer .footer .section > div:last-child > div {
